@@ -1,0 +1,76 @@
+/* src/components/AuthForm.css */
+
+.auth-form {
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.8); 
+}
+
+.auth-form.login {
+  background-color:  rgba(255, 255, 255, 0.3); 
+  margin-top: 100px;
+}
+
+.auth-form.signup {
+  background-color:  rgba(255, 255, 255, 0.3); 
+  margin-top: 100px;
+}
+#hyper-main{
+  height: 95vh;
+
+}
+
+.auth-form h2 {
+  color: #333; 
+}
+
+.auth-form p,
+.auth-form .forgot-password {
+  cursor: pointer;
+  margin-top: 10px;
+  color: #333; /* Text color */
+  transition: color 0.3s ease-in-out;
+}
+
+.auth-form p:hover,
+.auth-form .forgot-password:hover {
+  text-decoration: underline;
+  color: #555; /* Hovered text color */
+}
+
+.auth-form Button {
+  background-color: #4c6ef5;
+  border: none;
+  transition: background-color 0.3s ease-in-out;
+  color: #fff; /* Button text color */
+}
+
+.auth-form Button:hover {
+  background-color: #3546b3;
+}
+
+.toggle-form {
+  cursor: pointer;
+  margin-top: 10px;
+  color: #007bff;
+  transition: color 0.3s ease-in-out;
+}
+
+.toggle-form:hover {
+  color: #004080;
+}
+
+.icon-prepend {
+  display: flex;
+  margin-left: 15px;
+  order: 2;
+  margin-right: 15px; /* Increased spacing between icon and input */
+}
+
+/* Add spacing between the input fields */
+.auth-form .form-group {
+  margin-bottom: 20px;
+}

@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #ecf0f1;
+  }
+
+  .blurry-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 55%;
+    filter: blur(2px); 
+    background: url('../images/design1.jpg') no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 2%;
+    border-bottom-right-radius: 2%;
+    z-index: -1;
+}
+.head{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.pform {
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    background-color: white; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1),
+    0 16px 32px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+
+}
+.pform:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2),
+                0 16px 32px rgba(0, 0, 0, 0.2),
+                0 32px 64px rgba(0, 0, 0, 0.2);
+}
+
+.form-container{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+label {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+button {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.canvas-container {
+    margin-top: 20px;
+}
+.selection-wrapper{
+    margin-bottom: 150px;
+}
