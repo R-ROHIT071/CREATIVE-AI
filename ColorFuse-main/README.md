@@ -25,6 +25,5 @@ Product branding and color switching: It makes use of a powerful canvas that let
   npm install
   npm start
 
-## Developers
-  Shahzad Mubeen (tylerrake04@gmail.com)
-  Likith S Sawkar (likithgodslayer02@gmail.com)
+## Developer
+#R ROHIT (rohit07cipherwiz@gmail.com)
